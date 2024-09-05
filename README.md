@@ -1,5 +1,7 @@
 # minishell
 
+
+## Configurar la rama en la que vas a trabajar.
 1. La rama por defecto es Main, para cambiar de rama usa el comando
 
 ##
