@@ -16,7 +16,7 @@
 
 
 
-##planteamiento:
+## Planteamiento:
 
 	1.Entender funcionamiento de un shell basico:
 		*Leer entrada de usuario.
@@ -42,3 +42,18 @@
 		*Redirecciones.
 		*Pipes.
 		*Comillas.
+
+	5.Implementar ejecución de comandos:
+		*Fork: Crear proceso hijo.
+		*Execve: Ejecutar el comando en el proceso.
+		*Waitpid: Esperar a que los procesos hijos terminen.
+
+	6.Redirecciones(<, >>, >) y pipes(|):
+		*Redirecciones: Redirigir la entrada o salida usando dup2() y ejecutar comando.
+		*Pipes: Conecta dos procesos.
+
+	7.Señales:
+		*Manejar las señales del sistema para evitar que se cierre de forma inesperada o que los comandos se vean interrumpidos. Usar signal(), sigaction(), sigint.
+
+	8.Manejo de errores:
+		*Comprobar el resultado de las llamadas al sistema y comandos. Si fork() o execve() fallan, manejar el error adecuadamente.
