@@ -53,7 +53,9 @@
 		*Pipes: Conecta dos procesos.
 
 	7.Señales:
-		*Manejar las señales del sistema para evitar que se cierre de forma inesperada o que los comandos se vean interrumpidos. Usar signal(), sigaction(), sigint.
+		*Manejar las señales del sistema para evitar que se cierre de forma inesperada
+		 o que los comandos se vean interrumpidos. Usar signal(), sigaction(), sigint.
 
 	8.Manejo de errores:
-		*Comprobar el resultado de las llamadas al sistema y comandos. Si fork() o execve() fallan, manejar el error adecuadamente.
+		*Comprobar el resultado de las llamadas al sistema y comandos.
+		Si fork() o execve() fallan, manejar el error adecuadamente.
